@@ -1,0 +1,152 @@
+.nm-pricing{
+	background-image:url(../images/pricing.jpg);
+	background-size:100% auto;
+	background-position:center center;
+	background-color:#00BFFF;
+}
+.nm-pricing2{
+	background-color:#FFF;
+}
+.nm-pricing-h1{
+	font:16px CODE , sans-serif;
+	color:#00BFFF;
+	text-align:center;
+	padding:50px 0 20px 0;
+	font-weight:bold;
+}
+.nm-pricing-h2{
+	font:70px CODE , sans-serif;
+	color:#333;
+	text-align:center;
+	padding:0px 0 20px 0;
+}
+.nm-pricing-h3{
+	font:18px CODE , sans-serif;
+	color:#999;
+	text-align:center;
+	padding:0px 0 40px 0;
+	font-weight:bold;
+}
+
+.nm-p{
+	margin:40px 10px 90px 10px;
+	padding:0px;
+	box-shadow:0px 15px 20px rgba(0,0,0,.3);
+	background-color:rgba(255,255,255,.1);
+	transition:.2s;
+}
+.nm-p:hover{
+	transform:scale(1.12);
+	margin-bottom:0;
+}
+.nm-p .p-b{
+	padding:30px;
+	text-align:center;
+	font:32px CODE , sans-serif;
+	font-weight:bold;
+	background-color:#009FD5;
+	color:#FFF;
+}
+.nm-p .p-f{
+	padding:30px;
+	text-align:center;
+	font:80px CODE , sans-serif;
+	color:#FFF;
+}
+.nm-p .p-f strong{
+	padding:30px;
+	text-align:center;
+	font:20px CODE , sans-serif;
+	font-weight:bold;
+	color:#FFF;
+}
+.nm-p .p-l{
+	padding:30px;
+	text-align:center;
+	font:18px/50px CODE , sans-serif;
+	color:#FFF;
+	background-color:rgba(255,255,255,.2);
+	font-weight:bold;
+}
+.nm-p .p-bu{
+	display:table;
+	width:100%;
+}
+.nm-2x{
+	transform:scale(1.08);
+	margin-bottom:0;
+}
+
+
+
+
+.button-nm{
+	
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  color: #fff;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+   display: inline-block;
+  padding: 0px 50px;
+  margin:   20px auto ;
+   text-decoration: none;
+   height:50px;
+   line-height:50px;
+	outline:0;
+	display:table;
+
+}
+.button-nm:hover{
+	background-color:#009FD5;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+.nm-pricing{
+	background-size:auto 100%;
+}
+.button-nm{
+	font-size:12px;
+}
+.nm-p .p-b{
+	padding:30px;
+	text-align:center;
+	font:32px CODE , sans-serif;
+	font-weight:bold;
+	background-color:#009FD5;
+	color:#FFF;
+}
+.nm-p .p-f{
+	padding:30px;
+	text-align:center;
+	font:80px CODE , sans-serif;
+	color:#FFF;
+}
+.nm-p .p-f strong{
+	padding:30px;
+	text-align:center;
+	font:13px CODE , sans-serif;
+	font-weight:bold;
+	color:#FFF;
+}
+.nm-p .p-l{
+	padding:30px;
+	text-align:center;
+	font:16px/50px CODE , sans-serif;
+	color:#FFF;
+	background-color:rgba(255,255,255,.2);
+	font-weight:bold;
+}
+
+}

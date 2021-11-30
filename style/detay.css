@@ -1,0 +1,155 @@
+.detaysf{
+	background-image:url(../images/a.jpg);
+	height:100px;
+}
+.detaysfic{
+	background-image:url(../images/aboutbg.jpg); 
+	background-size:100%;
+	
+}
+.detaysfic .detaysficc{
+	background-color:#fff;
+	height:auto;
+	padding-bottom:15px;
+}
+.dtybaslik{
+	border-bottom:2px solid #00BFFF;
+	padding:15px 15px;
+	color:#333;
+	font-weight:bold;
+}
+.detaysfic p{
+	color:#333;
+	font-size:14px;
+}
+.detaysfic ul{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	color:#666;
+}
+.detaysfic ul li{
+	margin:10px;
+}
+
+
+.dresim{
+	margin:30px 0;
+}
+
+
+.kapsa{
+	width:auto;
+	float:right;
+}
+.icon{
+	height:25px;
+	line-height:25px;
+	font-size:18px;
+	color:#3D3D3D;
+	text-indent:10px;
+	float:right;
+	padding-right:5px;
+	border-left:#CDCDCD 1px solid;
+	margin:0;
+}
+.icon a img{
+	width:16px;
+	height:16px;
+	margin:5px 2px;
+	line-height:normal;
+}
+.icon a:hover img{
+	opacity:1;
+}
+
+
+
+ .dsveri{
+	width:100%;
+	height:auto;
+	display:table;
+}
+ .dsveri .dsvbaslik {
+	width:100%;
+	line-height:30px;
+	font-size:18px;
+	color:#3D3D3D;
+	text-indent:5px;
+	float:left;
+	background-color:#F9F9F9;
+
+}
+ .dsveri .dsvlist {
+	width:100%;
+	height:auto;
+	display:table;
+
+}
+ .dsveri .dsvlist ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ .dsveri .dsvlist ul li{
+	list-style:none;
+	background-color:#FFFFFF;
+	margin:5px;
+	padding:5px 5%;
+	width:95%;
+	height:15px;
+	display:table;
+}
+ .dsveri .dsvlist ul li:hover{
+	background-color:#E9E9E9;
+}
+ .dsveri .dsvlist ul li a{
+	text-decoration:none;
+	color:#4D4D4D;
+	font-size:14px;
+	width:100%;
+	float:left;
+	display:inline-block;
+}
+ .dsveri .dsvlist ul li:hover a{
+	color:#000000;
+}
+
+ .dsveri .dsvresim {
+	width:100%;
+	height:auto;
+	display:table;
+}
+
+ .dsveri .dsvresim ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ .dsveri .dsvresim ul li{
+	list-style:none;
+	margin:0;
+	padding:0;
+	background-color:#FFFFFF;
+	padding:0.5%;
+	height:auto;
+	width:30%;
+	margin:3px 1%;
+	float:left;
+}
+ .dsveri .dsvresim ul li a{
+	display:table;
+	text-decoration:none;
+	color:#333333;
+	font-size:14px;
+	width:auto;
+	float:left;
+}
+ .dsveri .dsvresim ul li a img{
+	width:100%;
+	transition:.3s;
+}
+ .dsveri .dsvresim ul li:hover a img{
+	opacity:0.7;
+	transition:.3s;
+}

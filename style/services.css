@@ -1,0 +1,86 @@
+.nm-services{
+	background-color:#00CED1;
+	padding:20px 0 40px 0;
+	background-image:url(../images/aboutbg.png);
+	background-size:100% auto;
+	background-position:center center;
+}
+.nm-services-h1{
+	font:16px CODE , sans-serif;
+	color:#C6F2DF;
+	text-align:center;
+	padding:50px 0 20px 0;
+	font-weight:bold;
+}
+.nm-services-h2{
+	font:70px CODE , sans-serif;
+	color:#E4F9FA;
+	text-align:center;
+	padding:0px 0 20px 0;
+}
+.nm-services-h3{
+	font:18px CODE , sans-serif;
+	color:#C6F2DF;
+	text-align:center;
+	padding:0px 0 40px 0;
+	font-weight:bold;
+}
+
+.nm-services-b{
+	margin:15px 5px;
+	padding:20px;
+	border:1px solid #00CED1;
+	background-color:rgba(255,255,255,.1);
+	transition:.2s;
+}
+.nm-services-b:hover{
+	background-color:rgba(255,255,255,.25);
+}
+.nm-services-b .b-icon{
+	margin:0px auto 20px auto;
+	font-size:50px;
+	display:table;
+	color:#FFFFFF;
+	
+}
+.nm-services-b .b-h{
+	font:18px CODE , sans-serif;
+	margin:0px auto 20px auto;
+	display:table;
+	font-weight:bold;
+	color:#C6F2DF;
+}
+.nm-services-b .b-t{
+	margin:0px auto 20px auto;
+	font-size:14px;
+	display:table;
+	text-align:center;
+	color:#E4F9FA;
+}
+.par{
+	text-align:center; 
+	padding:30px 150px; 
+	color:#808080; 
+}
+
+
+@media only screen and (max-width: 990px) {
+.nm-services{
+	background-size:auto 100%;
+}
+
+}
+@media only screen and (max-width: 748px) {
+.nm-services-h2{
+	font-size:40px;
+}
+.par{
+	text-align:center; 
+	padding:30px 20px; 
+	color:#808080; 
+}
+
+}
+
+
+
